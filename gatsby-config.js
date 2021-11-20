@@ -3,6 +3,7 @@ module.exports = {
     title: `brenofelipsdev`,
     description: `Meu blog para compartilhar conteúdos sobre tecnologia.`,
     author: `Breno Felipe`,
+    position: `Software Developer`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
