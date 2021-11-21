@@ -12,12 +12,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       basePath: "pages",
     })
 
-    const sliceSlug = slug.slice(12)
-
     createNodeField({
       node,
       name: "slug",
-      value: `/${sliceSlug}`,
+      value: `/${slug.slice(12)}`,
     })
   }
 }
@@ -41,7 +39,7 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
-        component: path.resolve("./src/templates/blog-post.js"),
+        component: path.resolve(`./src/templates/blog-post.js`),
         context: {
           slug: node.fields.slug,
         },
