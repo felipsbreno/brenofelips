@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "felipsbreno.dev",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Welcome to my site, i'm have make this site for share content abou tecnologies and things related techologies what i learning in my traine.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Breno Felipe de Bairros <brendo.filipe2050@gmail.com>",
   "dependencies": {
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
@@ -37,7 +37,9 @@
     "react-test-renderer": "^17.0.2"
   },
   "keywords": [
-    "gatsby"
+    "Breno Felipe de Bairros",
+    "gatsby",
+    "React95"
   ],
   "license": "0BSD",
   "scripts": {
@@ -48,15 +50,16 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "jest --collectCoverage=true",
+    "test:watch": "jest --watch",
     "commit": "git-cz"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/felipsbreno/brenofelips"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/felipsbreno/brenofelips/issues"
   },
   "config": {
     "commitizen": {
