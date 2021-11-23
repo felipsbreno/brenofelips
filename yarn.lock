@@ -6410,16 +6410,16 @@ gatsby-page-utils@^2.2.0:
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-gatsby-cloud@^4.1.2:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-4.1.3.tgz#cb20feeffd349c64d782cc33e424f76a2f33bade"
-  integrity sha512-u1SpVFB/51Eq0eZL2sJAwlWXnUAMME9Efm+USBxyPe7WtljQzZoVk3MqauCxP7Q7VNsvvYAK0fogoqYoBrTd0Q==
+gatsby-plugin-gatsby-cloud@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-4.2.0.tgz#7c41809960ef01886da399bf0b81a5745e2b3a5b"
+  integrity sha512-fsPZzYkVcRwm1EeIg/ejzm6ldl68y9YNiD+LZ4pUStcCDYHv1+/Vzzs9GDqQuBY5cyk5eNBvAyOl3i1QNzcmAQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     date-fns "^2.25.0"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.1.3"
-    gatsby-telemetry "^3.1.3"
+    gatsby-core-utils "^3.2.0"
+    gatsby-telemetry "^3.2.0"
     kebab-hash "^0.1.2"
     lodash "^4.17.21"
     webpack-assets-manifest "^5.0.6"
@@ -6443,26 +6443,26 @@ gatsby-plugin-image@^2.2.0:
     objectFitPolyfill "^2.3.5"
     prop-types "^15.7.2"
 
-gatsby-plugin-manifest@^4.1.3:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.1.4.tgz#5a82d9a35abc389a2343bcece92e4df71a534c91"
-  integrity sha512-2acSzGaEaRAvleKPqGjeRaA+ODuGX7WYf0WLCn4HhuuimaSDbNpD0/PgHj3yULeqgheU7M+bkK5jxEnc/g73Ig==
+gatsby-plugin-manifest@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.2.0.tgz#d5a675f934f2322ba4077d72ac5d02bf173481bf"
+  integrity sha512-mIpGzQp3EquIEEzViddam18pV//rqYDb4mjVcRYYWkK6yFkj/hZrxffR0V0fYsoD2WV0whawvRFtiAJl3HTuxg==
   dependencies:
     "@babel/runtime" "^7.15.4"
-    gatsby-core-utils "^3.1.3"
-    gatsby-plugin-utils "^2.1.1"
+    gatsby-core-utils "^3.2.0"
+    gatsby-plugin-utils "^2.2.0"
     semver "^7.3.5"
-    sharp "^0.29.1"
+    sharp "^0.29.2"
 
-gatsby-plugin-offline@^5.1.3:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-5.1.4.tgz#fd0ea21d47fc557f2e9863ef3c61e1e3576b5bf9"
-  integrity sha512-2PGAtvYqr+n7j33gdfqFYbR4KTTTCQeTN8Yz/hKwQs8ZpFg6nT3IgUOiCh3GvS7EMJEakMBvbhNHloijWh+4vA==
+gatsby-plugin-offline@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-5.2.0.tgz#2ef32b7e0bc97bc4400e38708addf38ed0f187ef"
+  integrity sha512-CAFVrv/V8V5m4DQ8oJVaoorxRcSzdeak0tEKy02geY6ZkPKVFpozf3TqWSoXeFsBWCZhpNOjOM+jLo236Pj4Bw==
   dependencies:
     "@babel/runtime" "^7.15.4"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^3.1.3"
-    glob "^7.1.7"
+    gatsby-core-utils "^3.2.0"
+    glob "^7.2.0"
     idb-keyval "^3.2.0"
     lodash "^4.17.21"
     workbox-build "^4.3.1"
@@ -10403,7 +10403,11 @@ node-fetch@2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
+<<<<<<< HEAD
 node-fetch@^2.5.0, node-fetch@^2.6.1, node-fetch@^2.6.6:
+=======
+node-fetch@^2.5.0, node-fetch@^2.6.1, node-fetch@^2.6.5, node-fetch@^2.6.6:
+>>>>>>> master
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
   integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
@@ -14154,7 +14158,9 @@ webpack-assets-manifest@^5.0.6:
     deepmerge "^4.0"
     lockfile "^1.0"
     lodash.get "^4.0"
-    lodash.has "^4.0"
+    colorette "^1.2.2"
+    mem "^8.1.1"
+    memfs "^3.2.2"
     schema-utils "^3.0"
     tapable "^2.0"
 
