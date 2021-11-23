@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import * as S from "../components/Post/styled"
 
@@ -11,7 +11,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <Seo title={post.frontmatter.title} />
       <S.PostHeader>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
