@@ -7,7 +7,7 @@
   "dependencies": {
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "gatsby": "^4.2.0",
+    "gatsby": "^4.23.1",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",
     "gatsby-plugin-image": "^2.2.0",
