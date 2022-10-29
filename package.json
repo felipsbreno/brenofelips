@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Breno Felipe de Bairros <brendo.filipe2050@gmail.com>",
   "dependencies": {
-    "commitizen": "^4.2.4",
+    "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
     "gatsby": "^4.24.5",
     "gatsby-image": "^3.11.0",
