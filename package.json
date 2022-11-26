@@ -12,7 +12,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "algoliasearch": "^4.9.3",
     "babel-polyfill": "^6.26.0",
-    "dotenv": "^10.0.0",
+    "dotenv": "^16.0.0",
     "gatsby": "^3.7.2",
     "gatsby-image": "^3.7.1",
     "gatsby-plugin-algolia-search": "0.5.7",
