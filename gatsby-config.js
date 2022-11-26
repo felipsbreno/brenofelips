@@ -2,6 +2,9 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
+  flags: {
+    THE_FLAG: false,
+  },
   siteMetadata: {
     title: `brenofelipsdev`,
     description: `Meu blog para compartilhar conteúdos sobre tecnologia.`,
