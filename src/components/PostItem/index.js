@@ -30,7 +30,7 @@ PostItem.propTypes = {
   slug: PropTypes.string.isRequired,
   background: PropTypes.string,
   category: PropTypes.string.isRequired,
-  timeToRead: PropTypes.string.isRequired,
+  timeToRead: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 }
