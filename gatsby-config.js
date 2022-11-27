@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `brenofelipsdev`,
     description: `Meu blog para compartilhar conteúdos sobre tecnologia.`,
-    author: `Breno Felipe`,
+    author: `@felipsbreno`,
     position: `Software Developer`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
