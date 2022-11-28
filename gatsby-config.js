@@ -3,9 +3,8 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `brenofelipsdev`,
     description: `Meu blog para compartilhar conteúdos sobre tecnologia.`,
-    author: `@felipsbreno`,
+    author: `Breno Felipe Bairros`,
     position: `Software Developer`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
@@ -73,8 +72,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `brenofelipsdev`,
-        short_name: `brenofdev`,
+        name: `Breno Felipe Bairros`,
+        short_name: `Blog do Breno`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,
@@ -82,6 +81,7 @@ module.exports = {
         icon: `src/images/my.jpg`,
       },
     },
+    `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify-cms`,

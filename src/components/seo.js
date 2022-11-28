@@ -20,8 +20,6 @@ function Seo({ description, lang, meta, title, image }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
-
   const url = site.siteMetadata.siteUrl
   const ogImage = `${url}${image || "/images/my.jpg"}`
 
@@ -31,7 +29,7 @@ function Seo({ description, lang, meta, title, image }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={site.siteMetadata?.title}
       meta={[
         {
           name: `description`,
@@ -63,7 +61,7 @@ function Seo({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: `@felipsbreno`,
         },
         {
           name: `twitter:title`,
