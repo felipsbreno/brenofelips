@@ -202,7 +202,6 @@ export const MainContent = styled.section`
     margin: 1rem auto !important;
   }
   a {
-    border-bottom: 1px dashed var(--highlight);
     color: var(--highlight);
     text-decoration: none;
     transition: opacity 0.5s;
