@@ -8,10 +8,10 @@
     "email": "brendo.filipe2050@gmail.com"
   },
   "dependencies": {
-    "commitizen": "^4.2.5",
-    "cz-conventional-changelog": "^3.3.0",
     "algoliasearch": "^4.9.3",
     "babel-polyfill": "^6.26.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
     "dotenv": "^16.0.0",
     "gatsby": "^5.0.0",
     "gatsby-image": "^3.7.1",
