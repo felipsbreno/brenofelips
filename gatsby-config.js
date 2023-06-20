@@ -6,7 +6,7 @@ module.exports = {
     description: `Meu blog para compartilhar conteúdos sobre tecnologia.`,
     author: `Breno Felipe Bairros`,
     position: `Software Developer`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://brenofelipsdev.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,

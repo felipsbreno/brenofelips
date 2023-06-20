@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: felipsbreno/brenofelips
+  branch: master
+
+media_folder: static/assets/img
+public_folder: /assets/img
+publish_mode: editorial_workflow
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: "posts" # Used in routes,
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "Image", name: "image", widget: "image" }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["backend", "career", "dev", "frontend", "life"],
+        }
+      - {
+          label: "Background",
+          name: "background",
+          widget: "select",
+          options:
+            [
+              { label: "Backend", value: "#B31917" },
+              { label: "Career", value: "#2A3FAA" },
+              { label: "Dev", value: "#6C5291" },
+              { label: "Frontend", value: "#AB660D" },
+              { label: "Life", value: "#527310" },
+            ],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
