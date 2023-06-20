@@ -50,6 +50,13 @@ const BlogList = props => {
         prevPage={prevPage}
         nextPage={nextPage}
       />
+
+      <S.ListItemBuild>
+        <h1>
+          O site ainda está em construção, atualmente tem só um post de test, em
+          breve mais posts...😉
+        </h1>
+      </S.ListItemBuild>
     </Layout>
   )
 }

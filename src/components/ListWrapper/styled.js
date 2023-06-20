@@ -1,5 +1,18 @@
 import styled from "styled-components"
 
+export const ListItemBuild = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+`
+
 export const ListWrapper = styled.section`
   body#grid & {
     background-color: var(--borders);
