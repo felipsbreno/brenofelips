@@ -3,10 +3,10 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    description: `Meu blog para compartilhar conteúdos sobre tecnologia.`,
+    description: `Meu blog para compartilhar conteúdos sobre tecnologia, carreira e assuntos tecnológicos.`,
     author: `Breno Felipe Bairros`,
     position: `Software Developer`,
-    siteUrl: `https://brenofelipsdev.netlify.app/`,
+    siteUrl: `https://brenofelips.dev/`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
