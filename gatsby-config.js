@@ -1,4 +1,6 @@
+const path = require("path")
 require("dotenv").config()
+
 const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
@@ -12,18 +14,15 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `uploads`,
         path: `${__dirname}/static/assets/img`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
       },
     },
     {
@@ -46,7 +45,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 960,
+              maxWidth: 900,
               linkImagesToOriginal: false,
             },
           },
@@ -55,9 +54,18 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-image`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-root-import`,
+      options: {
+        components: path.join(__dirname, "src/components"),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `G-TB1QKJXP84`,
+      },
+    },
     {
       resolve: `gatsby-plugin-algolia-search`,
       options: {
