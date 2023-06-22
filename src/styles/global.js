@@ -60,11 +60,11 @@ const GlobalStyles = createGlobalStyle`
   }
   body.dark {
     --borders: #38444d;
-    --postColor: #fff;
     --texts: #8899a6;
-    --highlight: #1fa1f2;
-    --mediumBackground: #192734;
-    --background: #16202c;
+    --postColor: #fff;
+    --highlight: #F231A5;
+    --mediumBackground: #0a0c21;
+    --background: #030518;
     --white: #fff;
     --black: #222;
   }
@@ -72,7 +72,7 @@ const GlobalStyles = createGlobalStyle`
     --borders: #dedede;
     --postColor: #111;
     --texts: #555555;
-    --highlight: #1fa1f2;
+    --highlight: #F231A5;
     --mediumBackground: #f0f0f3;
     --background: #fff;
     --white: #fff;
