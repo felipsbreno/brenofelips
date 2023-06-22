@@ -1,6 +1,6 @@
 import React from "react"
 import { Home } from "@styled-icons/boxicons-solid/Home"
-import { Aboutdotme } from "@styled-icons/simple-icons/Aboutdotme"
+import { PersonInfo } from "@styled-icons/fluentui-system-filled/PersonInfo"
 
 const links = [
   {
@@ -8,7 +8,7 @@ const links = [
     url: "/",
   },
   {
-    label: <Aboutdotme size={30} />,
+    label: <PersonInfo size={30} />,
     url: "/about",
   },
 ]
