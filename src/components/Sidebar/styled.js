@@ -12,7 +12,7 @@ export const SidebarWrapper = styled.aside`
   position: fixed;
   padding: 2rem;
   text-align: center;
-  width: 5rem;
+  width: 4rem;
 
   ${media.lessThan("large")`
     align-items: flex-start;
