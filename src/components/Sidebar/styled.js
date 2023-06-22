@@ -7,11 +7,12 @@ export const SidebarWrapper = styled.aside`
   background: var(--mediumBackground);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   position: fixed;
   padding: 2rem;
   text-align: center;
-  width: 20rem;
+  width: 5rem;
 
   ${media.lessThan("large")`
     align-items: flex-start;

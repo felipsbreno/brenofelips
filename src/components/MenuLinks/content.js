@@ -1,10 +1,14 @@
+import React from "react"
+import { Home } from "@styled-icons/boxicons-solid/Home"
+import { Aboutdotme } from "@styled-icons/simple-icons/Aboutdotme"
+
 const links = [
   {
-    label: "Home",
+    label: <Home size={30} />,
     url: "/",
   },
   {
-    label: "Sobre Mim",
+    label: <Aboutdotme size={30} />,
     url: "/about",
   },
 ]

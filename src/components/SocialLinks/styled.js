@@ -12,6 +12,7 @@ export const SocialLinksWrapper = styled.nav`
 export const SocialLinksList = styled.ul`
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   list-style: none;
 `
@@ -31,4 +32,5 @@ export const IconWrapper = styled.div`
   fill: #bbb;
   width: 30px;
   height: 30px;
+  margin-bottom: 1rem;
 `
