@@ -4,7 +4,7 @@ import Icons from "./icons"
 import links from "./content"
 import * as S from "./styled"
 
-const SocialLinks = () => (
+const SocialLinks = ({ isSideBar }) => (
   <S.SocialLinksWrapper>
     <S.SocialLinksList>
       {links.map((link, i) => {

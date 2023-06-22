@@ -17,7 +17,7 @@ const AboutPage = () => (
       <h1>Hey everyone!</h1>
 
       <p>
-        Meu nome é Breno Felipe, tenho 23 anos, e atualmente trabalho como
+        Meu nome é Breno Felipe tenho 24 anos e atualmente trabalho como
         Software Developer na{" "}
         <Link target="_blank" to="https://www.cognyte.com/">
           Cognyte
@@ -27,9 +27,9 @@ const AboutPage = () => (
       </p>
 
       <p>
-        Sou natural de Florianópolis, mas fui criado em São Miguel do Oeste no
-        interior, então sim, já puxei o "R" 😅. Em 2010 voltei a morar em
-        Florianópolis, onde moro até o momento.
+        Sou natural de Florianópolis mas fui criado em São Miguel do Oeste no
+        oeste de Santa Catarina, então sim, já puxei o "R" 😅. Em 2010 voltei a
+        morar em Florianópolis onde moro até o momento.
       </p>
 
       <p>
@@ -44,7 +44,6 @@ const AboutPage = () => (
 
       <h4>Sinta-se a vontade para entrar em contato.</h4>
     </MainContent>
-    <SocialLinks />
   </Layout>
 )
 
