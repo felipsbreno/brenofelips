@@ -4,9 +4,9 @@ import media from "styled-media-query"
 export const AvatarWrapper = styled.div`
   .gatsby-image-wrapper {
     border-radius: 50%;
-    height: 3.12rem;
+    height: 3rem;
+    width: 3rem;
     margin: auto;
-    width: 3.12rem;
     bottom: 0.3rem;
 
     ${media.lessThan("large")`

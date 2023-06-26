@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <S.ProfileWrapper>
       <S.ProfileLink
-        to="/"
+        to="/about"
         cover
         direction="left"
         bg={getThemeColor()}
