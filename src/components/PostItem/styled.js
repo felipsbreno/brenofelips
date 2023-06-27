@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 export const PostItemLink = styled(Link)`
   color: var(--texts);
   display: flex;
+  align-items: center;
   text-decoration: none;
 
   body#grid & {
@@ -20,7 +21,7 @@ export const PostItemWrapper = styled.section`
   align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
-  padding: 2rem 3rem;
+  padding: 1.2rem 2rem;
   width: 100%;
 
   body#grid & {
@@ -33,7 +34,7 @@ export const PostItemWrapper = styled.section`
   ${media.lessThan("large")`
     align-items: flex-start;
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 1.2rem 2rem;
   `}
 `
 
@@ -77,6 +78,11 @@ export const PostItemInfo = styled.div`
 
 export const PostItemDate = styled.time`
   font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+
+  body#grid & {
+    margin-bottom: 0;
+  }
 `
 
 export const PostItemTitle = styled.h1`
