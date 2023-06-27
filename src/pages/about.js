@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
+import SocialLinks from "../components/SocialLinks"
 
 import { MainContent } from "../components/Post/styled"
-import SocialLinks from "../components/SocialLinks"
 
 const AboutPage = () => (
   <Layout>
@@ -44,6 +44,7 @@ const AboutPage = () => (
 
       <h4>Sinta-se a vontade para entrar em contato.</h4>
     </MainContent>
+    <SocialLinks />
   </Layout>
 )
 

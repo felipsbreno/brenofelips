@@ -2,19 +2,15 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const SocialLinksWrapper = styled.nav`
-  margin: 2rem auto;
+  margin: 1rem auto;
   width: 100%;
-  ${media.lessThan("large")`
-    display: none;
-  `}
 `
 
 export const SocialLinksList = styled.ul`
-  align-items: center;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `
 
 export const SocialLinksItem = styled.li``
