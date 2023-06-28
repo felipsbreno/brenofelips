@@ -2733,7 +2733,7 @@
     "@babel/runtime" "^7.20.7"
     "@styled-icons/styled-icon" "^10.7.0"
 
-"@styled-icons/boxicons-logos@10.47.0":
+"@styled-icons/boxicons-logos@10.47.0", "@styled-icons/boxicons-logos@^10.47.0":
   version "10.47.0"
   resolved "https://registry.yarnpkg.com/@styled-icons/boxicons-logos/-/boxicons-logos-10.47.0.tgz#8a21a61d202e3ae2dfdec24d80897c3262777841"
   integrity sha512-eDZfiTjBth4MsCX83ZfiWIoYGU494NxZgAxyf7S0ky2ZRsJnq/Cs7crH4hKWUTaLvCo0XRJmLeA3Us2tZFiItg==

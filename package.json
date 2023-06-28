@@ -8,6 +8,7 @@
     "email": "brendo.filipe2050@gmail.com"
   },
   "dependencies": {
+    "@styled-icons/boxicons-logos": "^10.47.0",
     "algoliasearch": "^4.9.3",
     "babel-polyfill": "^6.26.0",
     "commitizen": "^4.2.5",

@@ -10,4 +10,3 @@ export const ListWrapper = styled.section`
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   }
 `
-

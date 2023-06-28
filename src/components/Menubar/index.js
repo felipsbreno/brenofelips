@@ -3,13 +3,13 @@ import React, { useState, useEffect } from "react"
 import { Home } from "@styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
 import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
-import { ThList as List } from "@styled-icons/typicons/ThList"
 import { Lightbulb as Light } from "@styled-icons/material-outlined/Lightbulb"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
+import { ThList as List } from "@styled-icons/typicons/ThList"
 
 import getThemeColor from "../../utils/getThemeColor"
+
 import * as S from "./styled"
-import Avatar from "../Avatar"
 
 const MenuBar = () => {
   const [theme, setTheme] = useState(null)
@@ -29,18 +29,6 @@ const MenuBar = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.MenuBarLink
-          to="/about"
-          cover
-          direction="right"
-          bg={getThemeColor()}
-          duration={0.6}
-          title="Ir para página de about"
-        >
-          <S.MenuBarItem>
-            <Avatar />
-          </S.MenuBarItem>
-        </S.MenuBarLink>
         <S.MenuBarLink
           to="/"
           cover

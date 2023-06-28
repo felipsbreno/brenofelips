@@ -34,11 +34,9 @@ const GlobalStyles = createGlobalStyle`
     background: #030518;
     width: 0.7rem;
   }
-
   ::-webkit-scrollbar-thumb {
     background: #38444d;
   }
-
 
   ol, ul {
     list-style: none;

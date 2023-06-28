@@ -1,10 +1,11 @@
-import React from "react"
-import { Home } from "@styled-icons/boxicons-solid/Home"
-
 const links = [
   {
-    label: <Home size={30} />,
+    label: "Home",
     url: "/",
+  },
+  {
+    label: "Sobre Mim",
+    url: "/about/",
   },
 ]
 

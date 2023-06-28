@@ -1,17 +1,18 @@
 import React from "react"
 
-import Icons from "./icons"
+import Icons from "./Icons"
 import links from "./content"
+
 import * as S from "./styled"
 
-const SocialLinks = ({ isSideBar }) => (
+const SocialLinks = () => (
   <S.SocialLinksWrapper>
     <S.SocialLinksList>
       {links.map((link, i) => {
         const Icon = Icons[link.label]
 
         return (
-          <S.SocialLinksItem key={i} id={i}>
+          <S.SocialLinksItem key={i}>
             <S.SocialLinksLink
               href={link.url}
               title={link.label}
