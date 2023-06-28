@@ -2,13 +2,11 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const LayoutWrapper = styled.section`
-  display: flex;
 `
 
 export const LayoutMain = styled.main`
   background: var(--background);
   min-height: 100vh;
-  padding: 0 3.75rem 0 6rem;
   transition: background, color 0.5s;
   width: 100%;
 
@@ -17,8 +15,18 @@ export const LayoutMain = styled.main`
       "posts"
       "pagination";
   }
+`
 
-  ${media.lessThan("large")`
-    padding: 4.125rem 0 3rem 0;
-  `}
+export const Header = styled.header`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background: var(--mediumBackground);
+`
+
+export const Logo = styled.div`
+  .gatsby-image-wrapper {
+    width: 14rem;
+  }
 `

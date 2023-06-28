@@ -21,14 +21,15 @@ export const PostItemWrapper = styled.section`
   align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
-  padding: 1.2rem 2rem;
+  padding: 1.2rem 4rem;
   width: 100%;
 
   body#grid & {
     border: none;
-    padding: 2rem 1rem;
+    padding: 1.2rem 4rem;
     flex-direction: column;
     justify-content: center;
+
   }
 
   ${media.lessThan("large")`

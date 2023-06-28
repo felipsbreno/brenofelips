@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import media from "styled-media-query"
 
-export const SidebarWrapper = styled.aside`
+export const SidebarWrapper = styled.header`
   align-items: center;
   border-right: 1px solid var(--borders);
   background: var(--mediumBackground);
@@ -9,7 +9,6 @@ export const SidebarWrapper = styled.aside`
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  position: fixed;
   padding: 2rem;
   text-align: center;
   width: 4rem;
