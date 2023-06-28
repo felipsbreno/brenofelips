@@ -10,6 +10,7 @@
   "dependencies": {
     "@styled-icons/boxicons-logos": "^10.47.0",
     "algoliasearch": "^4.9.3",
+    "babel-plugin-styled-components": "^2.1.4",
     "babel-polyfill": "^6.26.0",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
