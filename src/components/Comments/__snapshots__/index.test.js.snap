@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comments should render equals snapshot 1`] = `
+.c0 {
+  margin: auto;
+  max-width: 70rem;
+  padding: 3rem 6.4rem 3rem;
+}
+
+.c0 iframe[src*="ads-iframe"] {
+  display: none;
+}
+
+.c0 #disqus_thread a {
+  color: var(--highlight)!important;
+}
+
+.c1 {
+  color: var(--postColor);
+  font-size: 2.1rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1170px) {
+  .c0 {
+    padding: 3rem 1.4rem 0;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1170px) {
+  .c1 {
+    font-size: 1.375rem;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+    data-testid="comments"
+  >
+    <h2
+      class="c1"
+    >
+      Comentários
+    </h2>
+    <div>
+      <div
+        id="disqus_thread"
+      />
+    </div>
+  </section>
+</div>
+`;
