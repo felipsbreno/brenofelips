@@ -5,7 +5,7 @@ import * as S from "./styled"
 
 const Avatar = () => {
   return (
-    <S.AvatarWrapper>
+    <S.AvatarWrapper data-testid="avatar">
       <StaticImage
         src="../../images/my.png"
         alt="Minha foto para você ver quem eu sou"

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should be equals snapshot 1`] = `
+.c0 .gatsby-image-wrapper {
+  border-radius: 50%;
+  height: 3.75rem;
+  margin: auto;
+  width: 3.75rem;
+}
+
+@media (max-width: 1170px) {
+  .c0 .gatsby-image-wrapper {
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="avatar"
+  />
+</div>
+`;
